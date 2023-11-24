@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>hi</title>
 </head>
 <body>
-    <p id="demo"></p>
-    
-    <script src="index.js"></script>
+    <p id="demo1">
+
+    </p>
     <script>
-        document.getElementById('demo').innerHTML = myfunc();
+        let person={firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+        document.getElementById("demo1").innerHTML=
+        person.firstName + " " +person.lastName+" "+person.age; 
+    </script>
+    <button type="button" id="demo" onclick="updateButton()">click</button>
+    <script src="index.js">
+        
     </script>
 </body>
 </html>
