@@ -5,6 +5,37 @@
   text-align: center;
 }
 
+/* .screen{
+  width:100%;
+  height: 100%;
+} */
+.bstrip{
+  /* position: relative; */
+  margin-top:15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: auto;
+  padding-top: 12px;
+  height: 8%;
+  border: 2px solid black;
+  border-radius: 2%;
+}
+
+.butts{
+  border: 2px solid black;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Change to your desired background color */
+}
+
 
 
 .logo {
